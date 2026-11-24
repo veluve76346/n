@@ -1,0 +1,6 @@
+CityMapMeshView robrun_map_city.png 3.2000 2361.6000 3097.6000 4634 4765 97 173 181
+HubMapMeshView robrun_map_hub.png 3.2000 774.4000 774.4000 1549 1549 192 148 96
+PrisonMapMeshView robrun_map_prison.png 3.2000 1456.0000 921.6000 3347 2157 192 148 96
+SettlementMapMeshView robrun_map_settlement.png 3.2000 2006.4000 2006.4000 4013 4013 192 148 96
+Settlement2MapMeshView robrun_map_settlement2.png 3.2000 2006.4000 2006.4000 4013 4013 192 148 96
+SectorCenterMapMeshView robrun_map_sectorcenter.png 3.2000 2006.4000 2006.4000 4013 4013 192 148 96

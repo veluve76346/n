@@ -1,0 +1,59 @@
+# bone map for cameraman - cameraman_dead_animation.glb (meme_models$n)
+# pelvis <model bone> / map <model bone> <game bone> [<direction bone>] / arm <shoulder> <elbow> <wrist> / foot <ankle>
+pelvis ValveBiped.Bip01_Pelvis
+map ValveBiped.Bip01_Pelvis M_spine_1_jnt
+map ValveBiped.Bip01_Spine M_spine_1_jnt ValveBiped.Bip01_Spine1
+map ValveBiped.Bip01_Spine1 M_spine_2_jnt ValveBiped.Bip01_Spine4
+map ValveBiped.Bip01_Spine4 M_spine_3_jnt ValveBiped.Bip01_Neck1
+map ValveBiped.Bip01_Neck1 M_neck_jnt ValveBiped.Bip01_Head1
+map ValveBiped.Bip01_Head1 M_head_1_jnt
+map ValveBiped.Bip01_L_Clavicle L_arm_0_jnt ValveBiped.Bip01_L_UpperArm
+map ValveBiped.Bip01_L_UpperArm L_arm_1_jnt ValveBiped.Bip01_L_Forearm
+map ValveBiped.Bip01_L_Forearm L_arm_2_jnt ValveBiped.Bip01_L_Hand
+map ValveBiped.Bip01_L_Hand L_arm_3_jnt ValveBiped.Bip01_L_Finger2
+map ValveBiped.Bip01_R_Clavicle R_arm_0_jnt ValveBiped.Bip01_R_UpperArm
+map ValveBiped.Bip01_R_UpperArm R_arm_1_jnt ValveBiped.Bip01_R_Forearm
+map ValveBiped.Bip01_R_Forearm R_arm_2_jnt ValveBiped.Bip01_R_Hand
+map ValveBiped.Bip01_R_Hand R_arm_3_jnt ValveBiped.Bip01_R_Finger2
+map ValveBiped.Bip01_L_Thigh L_leg_1_jnt ValveBiped.Bip01_L_Calf
+map ValveBiped.Bip01_L_Calf L_leg_2_jnt ValveBiped.Bip01_L_Foot
+map ValveBiped.Bip01_L_Foot L_leg_3_jnt ValveBiped.Bip01_L_Toe0
+map ValveBiped.Bip01_L_Toe0 L_foot_1_jnt
+map ValveBiped.Bip01_R_Thigh R_leg_1_jnt ValveBiped.Bip01_R_Calf
+map ValveBiped.Bip01_R_Calf R_leg_2_jnt ValveBiped.Bip01_R_Foot
+map ValveBiped.Bip01_R_Foot R_leg_3_jnt ValveBiped.Bip01_R_Toe0
+map ValveBiped.Bip01_R_Toe0 R_foot_1_jnt
+map ValveBiped.Bip01_L_Finger1 L_index_1_jnt ValveBiped.Bip01_L_Finger11
+map ValveBiped.Bip01_L_Finger11 L_index_2_jnt ValveBiped.Bip01_L_Finger12
+map ValveBiped.Bip01_L_Finger12 L_index_3_jnt
+map ValveBiped.Bip01_L_Finger2 L_middle_1_jnt ValveBiped.Bip01_L_Finger21
+map ValveBiped.Bip01_L_Finger21 L_middle_2_jnt ValveBiped.Bip01_L_Finger22
+map ValveBiped.Bip01_L_Finger22 L_middle_3_jnt
+map ValveBiped.Bip01_L_Finger3 L_ring_1_jnt ValveBiped.Bip01_L_Finger31
+map ValveBiped.Bip01_L_Finger31 L_ring_2_jnt ValveBiped.Bip01_L_Finger32
+map ValveBiped.Bip01_L_Finger32 L_ring_3_jnt
+map ValveBiped.Bip01_L_Finger4 L_pinky_1_jnt ValveBiped.Bip01_L_Finger41
+map ValveBiped.Bip01_L_Finger41 L_pinky_2_jnt ValveBiped.Bip01_L_Finger42
+map ValveBiped.Bip01_L_Finger42 L_pinky_3_jnt
+map ValveBiped.Bip01_L_Finger0 L_thumb_1_jnt ValveBiped.Bip01_L_Finger01
+map ValveBiped.Bip01_L_Finger01 L_thumb_2_jnt ValveBiped.Bip01_L_Finger02
+map ValveBiped.Bip01_L_Finger02 L_thumb_3_jnt
+map ValveBiped.Bip01_R_Finger1 R_index_1_jnt ValveBiped.Bip01_R_Finger11
+map ValveBiped.Bip01_R_Finger11 R_index_2_jnt ValveBiped.Bip01_R_Finger12
+map ValveBiped.Bip01_R_Finger12 R_index_3_jnt
+map ValveBiped.Bip01_R_Finger2 R_middle_1_jnt ValveBiped.Bip01_R_Finger21
+map ValveBiped.Bip01_R_Finger21 R_middle_2_jnt ValveBiped.Bip01_R_Finger22
+map ValveBiped.Bip01_R_Finger22 R_middle_3_jnt
+map ValveBiped.Bip01_R_Finger3 R_ring_1_jnt ValveBiped.Bip01_R_Finger31
+map ValveBiped.Bip01_R_Finger31 R_ring_2_jnt ValveBiped.Bip01_R_Finger32
+map ValveBiped.Bip01_R_Finger32 R_ring_3_jnt
+map ValveBiped.Bip01_R_Finger4 R_pinky_1_jnt ValveBiped.Bip01_R_Finger41
+map ValveBiped.Bip01_R_Finger41 R_pinky_2_jnt ValveBiped.Bip01_R_Finger42
+map ValveBiped.Bip01_R_Finger42 R_pinky_3_jnt
+map ValveBiped.Bip01_R_Finger0 R_thumb_1_jnt ValveBiped.Bip01_R_Finger01
+map ValveBiped.Bip01_R_Finger01 R_thumb_2_jnt ValveBiped.Bip01_R_Finger02
+map ValveBiped.Bip01_R_Finger02 R_thumb_3_jnt
+arm ValveBiped.Bip01_L_UpperArm ValveBiped.Bip01_L_Forearm ValveBiped.Bip01_L_Hand
+arm ValveBiped.Bip01_R_UpperArm ValveBiped.Bip01_R_Forearm ValveBiped.Bip01_R_Hand
+foot ValveBiped.Bip01_L_Foot
+foot ValveBiped.Bip01_R_Foot

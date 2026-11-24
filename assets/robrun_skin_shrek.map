@@ -1,0 +1,62 @@
+# bone map for shrek - shrek_pocket_shrek_and_animations.glb (meme_models$n)
+# pelvis <model bone> / map <model bone> <game bone> [<direction bone>] / arm <shoulder> <elbow> <wrist> / foot <ankle>
+pelvis shrek:jnt_c_torso_origin
+map shrek:jnt_c_torso_origin M_spine_1_jnt
+map shrek:jnt_c_torso_spine_1 M_spine_1_jnt shrek:jnt_c_torso_spine_2
+map shrek:jnt_c_torso_spine_2 M_spine_2_jnt shrek:jnt_c_torso_spine_3
+map shrek:jnt_c_torso_spine_3 M_spine_3_jnt shrek:jnt_c_torso_neck
+map shrek:jnt_c_torso_neck M_neck_jnt shrek:jnt_c_torso_head
+map shrek:jnt_c_torso_head M_head_1_jnt
+map shrek:jnt_l_arm_clavicle L_arm_0_jnt shrek:jnt_l_arm_shoulder
+map shrek:jnt_l_arm_shoulder L_arm_1_jnt shrek:jnt_l_arm_elbow
+map shrek:jnt_l_arm_elbow L_arm_2_jnt shrek:jnt_l_arm_wrist
+map shrek:jnt_l_arm_wrist L_arm_3_jnt shrek:jnt_l_hand_mid_1
+map shrek:jnt_r_arm_clavicle R_arm_0_jnt shrek:jnt_r_arm_shoulder
+map shrek:jnt_r_arm_shoulder R_arm_1_jnt shrek:jnt_r_arm_elbow
+map shrek:jnt_r_arm_elbow R_arm_2_jnt shrek:jnt_r_arm_wrist
+map shrek:jnt_r_arm_wrist R_arm_3_jnt shrek:jnt_r_hand_mid_1
+map shrek:jnt_l_leg_hip L_leg_1_jnt shrek:jnt_l_leg_knee
+map shrek:jnt_l_leg_knee L_leg_2_jnt shrek:jnt_l_leg_ankle
+map shrek:jnt_l_leg_ankle L_leg_3_jnt shrek:jnt_l_leg_ball
+map shrek:jnt_l_leg_ball L_foot_1_jnt
+map shrek:jnt_r_leg_hip R_leg_1_jnt shrek:jnt_r_leg_knee
+map shrek:jnt_r_leg_knee R_leg_2_jnt shrek:jnt_r_leg_ankle
+map shrek:jnt_r_leg_ankle R_leg_3_jnt shrek:jnt_r_leg_ball
+map shrek:jnt_r_leg_ball R_foot_1_jnt
+map shrek:jnt_l_hand_index_1 L_index_1_jnt shrek:jnt_l_hand_index_2
+map shrek:jnt_l_hand_index_2 L_index_2_jnt shrek:jnt_l_hand_index_3
+map shrek:jnt_l_hand_index_3 L_index_3_jnt
+map shrek:jnt_l_hand_mid_1 L_middle_1_jnt shrek:jnt_l_hand_mid_2
+map shrek:jnt_l_hand_mid_2 L_middle_2_jnt shrek:jnt_l_hand_mid_3
+map shrek:jnt_l_hand_mid_3 L_middle_3_jnt
+map shrek:jnt_l_hand_ring_1 L_ring_1_jnt shrek:jnt_l_hand_ring_2
+map shrek:jnt_l_hand_ring_2 L_ring_2_jnt shrek:jnt_l_hand_ring_3
+map shrek:jnt_l_hand_ring_3 L_ring_3_jnt
+map shrek:jnt_l_hand_pinky_1 L_pinky_1_jnt shrek:jnt_l_hand_pinky_2
+map shrek:jnt_l_hand_pinky_2 L_pinky_2_jnt shrek:jnt_l_hand_pinky_3
+map shrek:jnt_l_hand_pinky_3 L_pinky_3_jnt
+map shrek:jnt_l_hand_thumb_1 L_thumb_1_jnt shrek:jnt_l_hand_thumb_2
+map shrek:jnt_l_hand_thumb_2 L_thumb_2_jnt shrek:jnt_l_hand_thumb_3
+map shrek:jnt_l_hand_thumb_3 L_thumb_3_jnt
+map shrek:jnt_r_hand_index_1 R_index_1_jnt shrek:jnt_r_hand_index_2
+map shrek:jnt_r_hand_index_2 R_index_2_jnt shrek:jnt_r_hand_index_3
+map shrek:jnt_r_hand_index_3 R_index_3_jnt
+map shrek:jnt_r_hand_mid_1 R_middle_1_jnt shrek:jnt_r_hand_mid_2
+map shrek:jnt_r_hand_mid_2 R_middle_2_jnt shrek:jnt_r_hand_mid_3
+map shrek:jnt_r_hand_mid_3 R_middle_3_jnt
+map shrek:jnt_r_hand_ring_1 R_ring_1_jnt shrek:jnt_r_hand_ring_2
+map shrek:jnt_r_hand_ring_2 R_ring_2_jnt shrek:jnt_r_hand_ring_3
+map shrek:jnt_r_hand_ring_3 R_ring_3_jnt
+map shrek:jnt_r_hand_pinky_1 R_pinky_1_jnt shrek:jnt_r_hand_pinky_2
+map shrek:jnt_r_hand_pinky_2 R_pinky_2_jnt shrek:jnt_r_hand_pinky_3
+map shrek:jnt_r_hand_pinky_3 R_pinky_3_jnt
+map shrek:jnt_r_hand_thumb_1 R_thumb_1_jnt shrek:jnt_r_hand_thumb_2
+map shrek:jnt_r_hand_thumb_2 R_thumb_2_jnt shrek:jnt_r_hand_thumb_3
+map shrek:jnt_r_hand_thumb_3 R_thumb_3_jnt
+arm shrek:jnt_l_arm_shoulder shrek:jnt_l_arm_elbow shrek:jnt_l_arm_wrist
+arm shrek:jnt_r_arm_shoulder shrek:jnt_r_arm_elbow shrek:jnt_r_arm_wrist
+foot shrek:jnt_l_leg_ankle
+foot shrek:jnt_r_leg_ankle
+# the weapon in his hands drawn this much bigger (a big model; 2026-11-13 "для больших моделей ... чтобы оружие тоже увеличивалось",
+#  then "ты ведь не сделал как я просил для больших моделек": x1.35 was too little - his hand 2.6 times a man's; his hands held out of his belly in the code)
+weapon 2.0

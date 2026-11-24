@@ -1,0 +1,59 @@
+# bone map for spiderman - spiderman_renamed.glb (meme_models$n)
+# pelvis <model bone> / map <model bone> <game bone> [<direction bone>] / arm <shoulder> <elbow> <wrist> / foot <ankle>
+pelvis ROOTSHJnt
+map ROOTSHJnt M_spine_1_jnt
+map Spine_01SHJnt M_spine_1_jnt Spine_02SHJnt
+map Spine_02SHJnt M_spine_2_jnt Spine_TopSHJnt
+map Spine_TopSHJnt M_spine_3_jnt Neck01_AuxSHJnt
+map Neck01_AuxSHJnt M_neck_jnt Head_AuxSHJnt
+map Head_AuxSHJnt M_head_1_jnt
+map l_Arm_ClavicleSHJnt L_arm_0_jnt l_Arm_ShoulderSHJnt
+map l_Arm_ShoulderSHJnt L_arm_1_jnt l_Arm_Elbow_CurveSHJnt
+map l_Arm_Elbow_CurveSHJnt L_arm_2_jnt l_Arm_WristSHJnt
+map l_Arm_WristSHJnt L_arm_3_jnt l_Finger_03_01SHJnt
+map r_Arm_ClavicleSHJnt R_arm_0_jnt r_Arm_ShoulderSHJnt
+map r_Arm_ShoulderSHJnt R_arm_1_jnt r_Arm_Elbow_CurveSHJnt
+map r_Arm_Elbow_CurveSHJnt R_arm_2_jnt r_Arm_WristSHJnt
+map r_Arm_WristSHJnt R_arm_3_jnt r_Finger_03_01SHJnt
+map l_Leg_HipSHJnt L_leg_1_jnt l_Leg_KneeSHJnt
+map l_Leg_KneeSHJnt L_leg_2_jnt l_Leg_AnkleSHJnt
+map l_Leg_AnkleSHJnt L_leg_3_jnt l_Leg_BallSHJnt
+map l_Leg_BallSHJnt L_foot_1_jnt
+map r_Leg_HipSHJnt R_leg_1_jnt r_Leg_KneeSHJnt
+map r_Leg_KneeSHJnt R_leg_2_jnt r_Leg_AnkleSHJnt
+map r_Leg_AnkleSHJnt R_leg_3_jnt r_Leg_BallSHJnt
+map r_Leg_BallSHJnt R_foot_1_jnt
+map l_Finger_02_01SHJnt L_index_1_jnt l_Finger_02_02SHJnt
+map l_Finger_02_02SHJnt L_index_2_jnt l_Finger_02_03SHJnt
+map l_Finger_02_03SHJnt L_index_3_jnt
+map l_Finger_03_01SHJnt L_middle_1_jnt l_Finger_03_02SHJnt
+map l_Finger_03_02SHJnt L_middle_2_jnt l_Finger_03_03SHJnt
+map l_Finger_03_03SHJnt L_middle_3_jnt
+map l_Finger_04_01SHJnt L_ring_1_jnt l_Finger_04_02SHJnt
+map l_Finger_04_02SHJnt L_ring_2_jnt l_Finger_04_03SHJnt
+map l_Finger_04_03SHJnt L_ring_3_jnt
+map l_Finger_05_01SHJnt L_pinky_1_jnt l_Finger_05_02SHJnt
+map l_Finger_05_02SHJnt L_pinky_2_jnt l_Finger_05_03SHJnt
+map l_Finger_05_03SHJnt L_pinky_3_jnt
+map l_Finger_01_01SHJnt L_thumb_1_jnt l_Finger_01_02SHJnt
+map l_Finger_01_02SHJnt L_thumb_2_jnt l_Finger_01_03SHJnt
+map l_Finger_01_03SHJnt L_thumb_3_jnt
+map r_Finger_02_01SHJnt R_index_1_jnt r_Finger_02_02SHJnt
+map r_Finger_02_02SHJnt R_index_2_jnt r_Finger_02_03SHJnt
+map r_Finger_02_03SHJnt R_index_3_jnt
+map r_Finger_03_01SHJnt R_middle_1_jnt r_Finger_03_02SHJnt
+map r_Finger_03_02SHJnt R_middle_2_jnt r_Finger_03_03SHJnt
+map r_Finger_03_03SHJnt R_middle_3_jnt
+map r_Finger_04_01SHJnt R_ring_1_jnt r_Finger_04_02SHJnt
+map r_Finger_04_02SHJnt R_ring_2_jnt r_Finger_04_03SHJnt
+map r_Finger_04_03SHJnt R_ring_3_jnt
+map r_Finger_05_01SHJnt R_pinky_1_jnt r_Finger_05_02SHJnt
+map r_Finger_05_02SHJnt R_pinky_2_jnt r_Finger_05_03SHJnt
+map r_Finger_05_03SHJnt R_pinky_3_jnt
+map r_Finger_01_01SHJnt R_thumb_1_jnt r_Finger_01_02SHJnt
+map r_Finger_01_02SHJnt R_thumb_2_jnt r_Finger_01_03SHJnt
+map r_Finger_01_03SHJnt R_thumb_3_jnt
+arm l_Arm_ShoulderSHJnt l_Arm_Elbow_CurveSHJnt l_Arm_WristSHJnt
+arm r_Arm_ShoulderSHJnt r_Arm_Elbow_CurveSHJnt r_Arm_WristSHJnt
+foot l_Leg_AnkleSHJnt
+foot r_Leg_AnkleSHJnt

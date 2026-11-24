@@ -1,0 +1,60 @@
+# Homelander (j_* bones): which model bone the game drives - map <model bone> <game bone> [<bone the direction is taken to>]
+# (the overlay's own default; this file is the example for other models - assets/robrun_skin_<name>.map)
+pelvis j_mainroot
+map j_mainroot M_spine_1_jnt
+map j_spinelower M_spine_1_jnt j_spineupper
+map j_spineupper M_spine_2_jnt j_spine4
+map j_spine4 M_spine_3_jnt j_neck
+map j_neck M_neck_jnt j_head
+map j_head M_head_1_jnt
+map j_clavicle_le L_arm_0_jnt j_shoulder_le
+map j_shoulder_le L_arm_1_jnt j_elbow_le
+map j_elbow_le L_arm_2_jnt j_wrist_le
+map j_wrist_le L_arm_3_jnt j_mid_le_1
+map j_clavicle_ri R_arm_0_jnt j_shoulder_ri
+map j_shoulder_ri R_arm_1_jnt j_elbow_ri
+map j_elbow_ri R_arm_2_jnt j_wrist_ri
+map j_wrist_ri R_arm_3_jnt j_mid_ri_1
+map j_hip_le L_leg_1_jnt j_knee_le
+map j_knee_le L_leg_2_jnt j_ankle_le
+map j_ankle_le L_leg_3_jnt j_ball_le
+map j_ball_le L_foot_1_jnt
+map j_hip_ri R_leg_1_jnt j_knee_ri
+map j_knee_ri R_leg_2_jnt j_ankle_ri
+map j_ankle_ri R_leg_3_jnt j_ball_ri
+map j_ball_ri R_foot_1_jnt
+map j_index_le_1 L_index_1_jnt j_index_le_2
+map j_index_le_2 L_index_2_jnt j_index_le_3
+map j_index_le_3 L_index_3_jnt
+map j_mid_le_1 L_middle_1_jnt j_mid_le_2
+map j_mid_le_2 L_middle_2_jnt j_mid_le_3
+map j_mid_le_3 L_middle_3_jnt
+map j_ring_le_1 L_ring_1_jnt j_ring_le_2
+map j_ring_le_2 L_ring_2_jnt j_ring_le_3
+map j_ring_le_3 L_ring_3_jnt
+map j_pinky_le_1 L_pinky_1_jnt j_pinky_le_2
+map j_pinky_le_2 L_pinky_2_jnt j_pinky_le_3
+map j_pinky_le_3 L_pinky_3_jnt
+map j_thumb_le_1 L_thumb_1_jnt j_thumb_le_2
+map j_thumb_le_2 L_thumb_2_jnt j_thumb_le_3
+map j_thumb_le_3 L_thumb_3_jnt
+map j_index_ri_1 R_index_1_jnt j_index_ri_2
+map j_index_ri_2 R_index_2_jnt j_index_ri_3
+map j_index_ri_3 R_index_3_jnt
+map j_mid_ri_1 R_middle_1_jnt j_mid_ri_2
+map j_mid_ri_2 R_middle_2_jnt j_mid_ri_3
+map j_mid_ri_3 R_middle_3_jnt
+map j_ring_ri_1 R_ring_1_jnt j_ring_ri_2
+map j_ring_ri_2 R_ring_2_jnt j_ring_ri_3
+map j_ring_ri_3 R_ring_3_jnt
+map j_pinky_ri_1 R_pinky_1_jnt j_pinky_ri_2
+map j_pinky_ri_2 R_pinky_2_jnt j_pinky_ri_3
+map j_pinky_ri_3 R_pinky_3_jnt
+map j_thumb_ri_1 R_thumb_1_jnt j_thumb_ri_2
+map j_thumb_ri_2 R_thumb_2_jnt j_thumb_ri_3
+map j_thumb_ri_3 R_thumb_3_jnt
+arm j_shoulder_le j_elbow_le j_wrist_le
+arm j_shoulder_ri j_elbow_ri j_wrist_ri
+foot j_ankle_le
+foot j_ankle_ri
+cloth j_cape   # the cape: its own rig of 5 chains is a cloth (2026-11-13)

@@ -1,0 +1,29 @@
+# bone map for tuntun - Tuntun Sahr by SYMXY_ (CC-BY-4.0), the Squad overlay's FMDL turned into a skinned GLB (fmdl_to_glb.py --split)
+# pelvis <model bone> / map <model bone> <game bone> [<direction bone>] / arm <shoulder> <elbow> <wrist> / foot <ankle>
+pelvis mixamorig:Hips
+map mixamorig:Hips M_spine_1_jnt mixamorig:Spine2
+map mixamorig:Spine2 M_spine_3_jnt mixamorig:Head
+map mixamorig:Head M_head_1_jnt
+map mixamorig:LeftArm L_arm_1_jnt mixamorig:LeftForeArm
+map mixamorig:LeftForeArm L_arm_2_jnt mixamorig:LeftHand
+map mixamorig:LeftHand L_arm_3_jnt
+map mixamorig:RightArm R_arm_1_jnt mixamorig:RightForeArm
+map mixamorig:RightForeArm R_arm_2_jnt mixamorig:RightHand
+map mixamorig:RightHand R_arm_3_jnt
+map mixamorig:LeftUpLeg L_leg_1_jnt mixamorig:LeftLeg
+map mixamorig:LeftLeg L_leg_2_jnt mixamorig:LeftFoot
+map mixamorig:LeftFoot L_leg_3_jnt mixamorig:LeftToeBase
+map mixamorig:LeftToeBase L_foot_1_jnt
+map mixamorig:RightUpLeg R_leg_1_jnt mixamorig:RightLeg
+map mixamorig:RightLeg R_leg_2_jnt mixamorig:RightFoot
+map mixamorig:RightFoot R_leg_3_jnt mixamorig:RightToeBase
+map mixamorig:RightToeBase R_foot_1_jnt
+arm mixamorig:LeftArm mixamorig:LeftForeArm mixamorig:LeftHand
+arm mixamorig:RightArm mixamorig:RightForeArm mixamorig:RightHand
+foot mixamorig:LeftFoot
+foot mixamorig:RightFoot
+# (2026-11-14, "голова идет очень вперед когда иду": the game's men lean up to 50 degrees on a jog - on a 1.35 m log that throws the face far forward. Each of these bones
+#  keeps the game's yaw but takes only this share of its lean; 1 = as the game's)
+lean mixamorig:Hips 0.5
+lean mixamorig:Spine2 0.35
+lean mixamorig:Head 0.3

@@ -1,0 +1,33 @@
+# bone map for huggy - huggy_renamed2.glb (meme_models$n)
+# pelvis <model bone> / map <model bone> <game bone> [<direction bone>] / arm <shoulder> <elbow> <wrist> / foot <ankle>
+pelvis Base_HumanPelvis
+map Base_HumanPelvis M_spine_1_jnt
+map Base_HumanSpine1 M_spine_1_jnt Base_HumanSpine2
+map Base_HumanSpine2 M_spine_2_jnt Base_HumanRibcage
+map Base_HumanRibcage M_spine_3_jnt Base_HumanNeck
+map Base_HumanNeck M_neck_jnt Base_HumanHead
+map Base_HumanHead M_head_1_jnt
+map Base_HumanLCollarbone L_arm_0_jnt Base_HumanLUpperarm
+map Base_HumanLUpperarm L_arm_1_jnt Base_HumanLForearm
+map Base_HumanLForearm L_arm_2_jnt Base_HumanLPalm
+map Base_HumanLPalm L_arm_3_jnt Base_HumanLDigit21
+map Base_HumanRCollarbone R_arm_0_jnt Base_HumanRUpperarm
+map Base_HumanRUpperarm R_arm_1_jnt Base_HumanRForearm
+map Base_HumanRForearm R_arm_2_jnt Base_HumanRPalm
+map Base_HumanRPalm R_arm_3_jnt Base_HumanRDigit21
+map Base_HumanLThigh L_leg_1_jnt Base_HumanLCalf
+map Base_HumanLCalf L_leg_2_jnt Base_HumanLFoot
+map Base_HumanLFoot L_leg_3_jnt Base_HumanLToe11
+map Base_HumanLToe11 L_foot_1_jnt
+map Base_HumanRThigh R_leg_1_jnt Base_HumanRCalf
+map Base_HumanRCalf R_leg_2_jnt Base_HumanRFoot
+map Base_HumanRFoot R_leg_3_jnt Base_HumanRToe11
+map Base_HumanRToe11 R_foot_1_jnt
+map Base_HumanLDigit21 L_middle_1_jnt
+map Base_HumanLDigit11 L_thumb_1_jnt
+map Base_HumanRDigit21 R_middle_1_jnt
+map Base_HumanRDigit11 R_thumb_1_jnt
+arm Base_HumanLUpperarm Base_HumanLForearm Base_HumanLPalm
+arm Base_HumanRUpperarm Base_HumanRForearm Base_HumanRPalm
+foot Base_HumanLFoot
+foot Base_HumanRFoot

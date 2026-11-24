@@ -1,0 +1,39 @@
+# bone map for freddy - freddy_fazbear_rig.glb (meme_models$n)
+# pelvis <model bone> / map <model bone> <game bone> [<direction bone>] / arm <shoulder> <elbow> <wrist> / foot <ankle>
+pelvis Hips_jnt
+map Hips_jnt M_spine_1_jnt
+map Spine_jnt M_spine_3_jnt Neck_jnt
+map Neck_jnt M_neck_jnt Head_jnt
+map Head_jnt M_head_1_jnt
+map L_Shoulder_jnt L_arm_1_jnt L_Elbow_jnt
+map L_Elbow_jnt L_arm_2_jnt L_Wrist_jnt
+map L_Wrist_jnt L_arm_3_jnt L_MiddleA_jnt
+map R_Shoulder_jnt R_arm_1_jnt R_Elbow_jnt
+map R_Elbow_jnt R_arm_2_jnt R_Wrist_jnt
+map R_Wrist_jnt R_arm_3_jnt R_MiddleA_jnt
+map L_UpperLeg_jnt L_leg_1_jnt L_Knee_jnt
+map L_Knee_jnt L_leg_2_jnt L_Ankle_jnt
+map L_Ankle_jnt L_leg_3_jnt
+map R_UpperLeg_jnt R_leg_1_jnt R_Knee_jnt
+map R_Knee_jnt R_leg_2_jnt R_Ankle_jnt
+map R_Ankle_jnt R_leg_3_jnt
+map L_IndexA_jnt L_index_1_jnt L_IndexB_jnt
+map L_IndexB_jnt L_index_2_jnt
+map L_MiddleA_jnt L_middle_1_jnt L_MiddleB_jnt
+map L_MiddleB_jnt L_middle_2_jnt
+map L_PinkyA_jnt L_pinky_1_jnt L_PinkyB_jnt
+map L_PinkyB_jnt L_pinky_2_jnt
+map L_ThumbA_jnt L_thumb_1_jnt L_ThumbB_jnt
+map L_ThumbB_jnt L_thumb_2_jnt
+map R_IndexA_jnt R_index_1_jnt R_IndexB_jnt
+map R_IndexB_jnt R_index_2_jnt
+map R_MiddleA_jnt R_middle_1_jnt R_MiddleB_jnt
+map R_MiddleB_jnt R_middle_2_jnt
+map R_PinkyA_jnt R_pinky_1_jnt R_PinkyB_jnt
+map R_PinkyB_jnt R_pinky_2_jnt
+map R_ThumbA_jnt R_thumb_1_jnt R_ThumbB_jnt
+map R_ThumbB_jnt R_thumb_2_jnt
+arm L_Shoulder_jnt L_Elbow_jnt L_Wrist_jnt
+arm R_Shoulder_jnt R_Elbow_jnt R_Wrist_jnt
+foot L_Ankle_jnt
+foot R_Ankle_jnt

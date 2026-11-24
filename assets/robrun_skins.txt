@@ -1,0 +1,13 @@
+# the models of Skins > Models: <name>|<shown name> - files assets/robrun_skin_<name>.bin (+ .map)
+homelander|Homelander
+tvman|TV Man
+shrek|Shrek|hidden
+griffin|Peter Griffin|hidden
+freddy|Freddy Fazbear
+spiderman|Spider-Man
+cameraman|Cameraman
+patapim|Brr Brr Patapim
+sirenhead|Siren Head
+gigachad|Gigachad
+huggy|Huggy Wuggy
+tuntun|Tung Tung Sahur

@@ -1,0 +1,55 @@
+# bone map for sirenhead - siren_head_3d_model_rigged.glb (meme_models)
+# pelvis <model bone> / map <model bone> <game bone> [<direction bone>] / arm <shoulder> <elbow> <wrist> / foot <ankle>
+# (2026-11-13, "у сереноголового нету головы": his Head joint sits 8 cm BELOW his Neck joint, so bending the neck to run neck->head as the
+#  game's did turned it 166 degrees and his pole with the sirens went into his chest; the neck is not bent now - it stands as he was made)
+pelvis mixamorig:Hips
+map mixamorig:Hips M_spine_1_jnt
+map mixamorig:Spine M_spine_1_jnt mixamorig:Spine1
+map mixamorig:Spine1 M_spine_2_jnt mixamorig:Spine2
+map mixamorig:Spine2 M_spine_3_jnt mixamorig:Neck
+map mixamorig:Neck M_neck_jnt
+map mixamorig:Head M_head_1_jnt
+map mixamorig:LeftShoulder L_arm_0_jnt mixamorig:LeftArm
+map mixamorig:LeftArm L_arm_1_jnt mixamorig:LeftForeArm
+map mixamorig:LeftForeArm L_arm_2_jnt mixamorig:LeftHand
+map mixamorig:LeftHand L_arm_3_jnt mixamorig:LeftHandMiddle1
+map mixamorig:RightShoulder R_arm_0_jnt mixamorig:RightArm
+map mixamorig:RightArm R_arm_1_jnt mixamorig:RightForeArm
+map mixamorig:RightForeArm R_arm_2_jnt mixamorig:RightHand
+map mixamorig:RightHand R_arm_3_jnt mixamorig:RightHandMiddle1
+map mixamorig:LeftUpLeg L_leg_1_jnt mixamorig:LeftLeg
+map mixamorig:LeftLeg L_leg_2_jnt mixamorig:LeftFoot
+map mixamorig:LeftFoot L_leg_3_jnt mixamorig:LeftToeBase
+map mixamorig:LeftToeBase L_foot_1_jnt
+map mixamorig:RightUpLeg R_leg_1_jnt mixamorig:RightLeg
+map mixamorig:RightLeg R_leg_2_jnt mixamorig:RightFoot
+map mixamorig:RightFoot R_leg_3_jnt mixamorig:RightToeBase
+map mixamorig:RightToeBase R_foot_1_jnt
+map mixamorig:LeftHandIndex1 L_index_1_jnt mixamorig:LeftHandIndex2
+map mixamorig:LeftHandIndex2 L_index_2_jnt mixamorig:LeftHandIndex3
+map mixamorig:LeftHandIndex3 L_index_3_jnt
+map mixamorig:LeftHandMiddle1 L_middle_1_jnt mixamorig:LeftHandMiddle2
+map mixamorig:LeftHandMiddle2 L_middle_2_jnt mixamorig:LeftHandMiddle3
+map mixamorig:LeftHandMiddle3 L_middle_3_jnt
+map mixamorig:LeftHandRing1 L_ring_1_jnt mixamorig:LeftHandRing2
+map mixamorig:LeftHandRing2 L_ring_2_jnt mixamorig:LeftHandRing3
+map mixamorig:LeftHandRing3 L_ring_3_jnt
+map mixamorig:LeftHandThumb1 L_thumb_1_jnt mixamorig:LeftHandThumb2
+map mixamorig:LeftHandThumb2 L_thumb_2_jnt mixamorig:LeftHandThumb3
+map mixamorig:LeftHandThumb3 L_thumb_3_jnt
+map mixamorig:RightHandIndex1 R_index_1_jnt mixamorig:RightHandIndex2
+map mixamorig:RightHandIndex2 R_index_2_jnt mixamorig:RightHandIndex3
+map mixamorig:RightHandIndex3 R_index_3_jnt
+map mixamorig:RightHandMiddle1 R_middle_1_jnt mixamorig:RightHandMiddle2
+map mixamorig:RightHandMiddle2 R_middle_2_jnt mixamorig:RightHandMiddle3
+map mixamorig:RightHandMiddle3 R_middle_3_jnt
+map mixamorig:RightHandRing1 R_ring_1_jnt mixamorig:RightHandRing2
+map mixamorig:RightHandRing2 R_ring_2_jnt mixamorig:RightHandRing3
+map mixamorig:RightHandRing3 R_ring_3_jnt
+map mixamorig:RightHandThumb1 R_thumb_1_jnt mixamorig:RightHandThumb2
+map mixamorig:RightHandThumb2 R_thumb_2_jnt mixamorig:RightHandThumb3
+map mixamorig:RightHandThumb3 R_thumb_3_jnt
+arm mixamorig:LeftArm mixamorig:LeftForeArm mixamorig:LeftHand
+arm mixamorig:RightArm mixamorig:RightForeArm mixamorig:RightHand
+foot mixamorig:LeftFoot
+foot mixamorig:RightFoot

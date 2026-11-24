@@ -1,0 +1,59 @@
+# bone map for gigachad - gigachad.glb (meme_models$n)
+# pelvis <model bone> / map <model bone> <game bone> [<direction bone>] / arm <shoulder> <elbow> <wrist> / foot <ankle>
+pelvis CC_Base_Hip
+map CC_Base_Hip M_spine_1_jnt
+map CC_Base_Waist M_spine_1_jnt CC_Base_Spine01
+map CC_Base_Spine01 M_spine_2_jnt CC_Base_Spine02
+map CC_Base_Spine02 M_spine_3_jnt CC_Base_NeckTwist01
+map CC_Base_NeckTwist01 M_neck_jnt CC_Base_Head
+map CC_Base_Head M_head_1_jnt
+map CC_Base_L_Clavicle L_arm_0_jnt CC_Base_L_Upperarm
+map CC_Base_L_Upperarm L_arm_1_jnt CC_Base_L_Forearm
+map CC_Base_L_Forearm L_arm_2_jnt CC_Base_L_Hand
+map CC_Base_L_Hand L_arm_3_jnt CC_Base_L_Mid1
+map CC_Base_R_Clavicle R_arm_0_jnt CC_Base_R_Upperarm
+map CC_Base_R_Upperarm R_arm_1_jnt CC_Base_R_Forearm
+map CC_Base_R_Forearm R_arm_2_jnt CC_Base_R_Hand
+map CC_Base_R_Hand R_arm_3_jnt CC_Base_R_Mid1
+map CC_Base_L_Thigh L_leg_1_jnt CC_Base_L_Calf
+map CC_Base_L_Calf L_leg_2_jnt CC_Base_L_Foot
+map CC_Base_L_Foot L_leg_3_jnt CC_Base_L_ToeBase
+map CC_Base_L_ToeBase L_foot_1_jnt
+map CC_Base_R_Thigh R_leg_1_jnt CC_Base_R_Calf
+map CC_Base_R_Calf R_leg_2_jnt CC_Base_R_Foot
+map CC_Base_R_Foot R_leg_3_jnt CC_Base_R_ToeBase
+map CC_Base_R_ToeBase R_foot_1_jnt
+map CC_Base_L_Index1 L_index_1_jnt CC_Base_L_Index2
+map CC_Base_L_Index2 L_index_2_jnt CC_Base_L_Index3
+map CC_Base_L_Index3 L_index_3_jnt
+map CC_Base_L_Mid1 L_middle_1_jnt CC_Base_L_Mid2
+map CC_Base_L_Mid2 L_middle_2_jnt CC_Base_L_Mid3
+map CC_Base_L_Mid3 L_middle_3_jnt
+map CC_Base_L_Ring1 L_ring_1_jnt CC_Base_L_Ring2
+map CC_Base_L_Ring2 L_ring_2_jnt CC_Base_L_Ring3
+map CC_Base_L_Ring3 L_ring_3_jnt
+map CC_Base_L_Pinky1 L_pinky_1_jnt CC_Base_L_Pinky2
+map CC_Base_L_Pinky2 L_pinky_2_jnt CC_Base_L_Pinky3
+map CC_Base_L_Pinky3 L_pinky_3_jnt
+map CC_Base_L_Thumb1 L_thumb_1_jnt CC_Base_L_Thumb2
+map CC_Base_L_Thumb2 L_thumb_2_jnt CC_Base_L_Thumb3
+map CC_Base_L_Thumb3 L_thumb_3_jnt
+map CC_Base_R_Index1 R_index_1_jnt CC_Base_R_Index2
+map CC_Base_R_Index2 R_index_2_jnt CC_Base_R_Index3
+map CC_Base_R_Index3 R_index_3_jnt
+map CC_Base_R_Mid1 R_middle_1_jnt CC_Base_R_Mid2
+map CC_Base_R_Mid2 R_middle_2_jnt CC_Base_R_Mid3
+map CC_Base_R_Mid3 R_middle_3_jnt
+map CC_Base_R_Ring1 R_ring_1_jnt CC_Base_R_Ring2
+map CC_Base_R_Ring2 R_ring_2_jnt CC_Base_R_Ring3
+map CC_Base_R_Ring3 R_ring_3_jnt
+map CC_Base_R_Pinky1 R_pinky_1_jnt CC_Base_R_Pinky2
+map CC_Base_R_Pinky2 R_pinky_2_jnt CC_Base_R_Pinky3
+map CC_Base_R_Pinky3 R_pinky_3_jnt
+map CC_Base_R_Thumb1 R_thumb_1_jnt CC_Base_R_Thumb2
+map CC_Base_R_Thumb2 R_thumb_2_jnt CC_Base_R_Thumb3
+map CC_Base_R_Thumb3 R_thumb_3_jnt
+arm CC_Base_L_Upperarm CC_Base_L_Forearm CC_Base_L_Hand
+arm CC_Base_R_Upperarm CC_Base_R_Forearm CC_Base_R_Hand
+foot CC_Base_L_Foot
+foot CC_Base_R_Foot
